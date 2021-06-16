@@ -90,6 +90,8 @@ body {
 .playlist {
   margin-top: -20px;
   width: 300px;
+  display: flex;
+  flex-wrap: wrap;
 }
 .playlist_1st {
   display: flex;
