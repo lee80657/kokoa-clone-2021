@@ -1,0 +1,173 @@
+body {
+  border: 5px solid turquoise;
+  display: flex;
+  width: 300px;
+  height: 700px;
+  flex-wrap: wrap;
+}
+.status-bar {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  align-content: center;
+}
+.status-bar_icon {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 70px;
+}
+
+.music_selcted {
+  display: flex;
+  margin-top: -30px;
+  width: 300px;
+  height: 100px;
+  flex-wrap: wrap;
+}
+.music_selcted_albumcover {
+  border: 3px solid black;
+  border-radius: 10%;
+  margin-left: 20px;
+  margin-right: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: sandybrown;
+  color: white;
+}
+.music_selcted_info {
+  margin-top: -10px;
+  font-size: inherit;
+  font: bolder;
+}
+.music_selcted_info_singer {
+  margin-top: -15px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.buttons {
+  margin-top: -50px;
+  padding: 20px;
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  align-items: center;
+}
+.buttons_play {
+  width: 120px;
+  height: 30px;
+  border: 3px solid black;
+  border-radius: 10%;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.play_text {
+  margin-left: 5px;
+  font: bold 15pt black;
+}
+.buttons_like {
+  display: flex;
+  border: 3px solid black;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  font: bolder 15pt black;
+}
+.buttons_add {
+  display: flex;
+  border: 3px solid black;
+  border-radius: 50%;
+  display: flex;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  font: bolder 15pt black;
+}
+.playlist {
+  margin-top: -20px;
+  width: 300px;
+}
+.playlist_1st {
+  display: flex;
+  width: 300px;
+  align-items: center;
+}
+.playlist_2nd {
+  display: flex;
+  width: 300px;
+  align-items: center;
+}
+.playlist_3rd {
+  display: flex;
+  width: 300px;
+  align-items: center;
+}
+.playlist_4th {
+  display: flex;
+  width: 300px;
+  align-items: center;
+}
+.playlist_1st_albumcover {
+  margin-right: 10px;
+  border: 3px solid black;
+  border-radius: 10%;
+  height: 60px;
+  width: 60px;
+  margin-left: 20px;
+  background-color: tomato;
+}
+.playlist_2nd_albumcover {
+  margin-right: 10px;
+  border: 3px solid black;
+  border-radius: 10%;
+  height: 60px;
+  width: 60px;
+  margin-left: 20px;
+  background-color: pink;
+}
+.playlist_3rd_albumcover {
+  margin-right: 10px;
+  border: 3px solid black;
+  border-radius: 10%;
+  height: 60px;
+  width: 60px;
+  margin-left: 20px;
+  background-color: blue;
+}
+.playlist_4th_albumcover {
+  margin-right: 10px;
+  border: 3px solid black;
+  border-radius: 10%;
+  height: 60px;
+  width: 60px;
+  margin-left: 20px;
+  background-color: teal;
+}
+.playlist_1st_info_singer {
+  margin-top: -15px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: gray;
+}
+.playlist_2nd_info_singer {
+  margin-top: -15px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: gray;
+}
+.playlist_3rd_info_singer {
+  margin-top: -15px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: gray;
+}
+.playlist_4th_info_singer {
+  margin-top: -15px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: gray;
+}
