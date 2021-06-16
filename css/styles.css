@@ -61,6 +61,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: 0px 3px 0px 1px black;
 }
 .play_text {
   margin-left: 5px;
@@ -75,6 +76,7 @@ body {
   justify-content: center;
   align-items: center;
   font: bolder 15pt black;
+  box-shadow: 0px 3px 0px 1px black;
 }
 .buttons_add {
   display: flex;
@@ -86,6 +88,7 @@ body {
   justify-content: center;
   align-items: center;
   font: bolder 15pt black;
+  box-shadow: 0px 3px 0px 1px black;
 }
 .playlist {
   margin-top: -20px;
