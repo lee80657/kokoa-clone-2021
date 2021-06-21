@@ -1,0 +1,14 @@
+.screen__header {
+  margin: 0px 10px;
+  margin-top: 20px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.screen__header h1 {
+  font-weight: 600;
+  font-size: 22pt;
+}
+.screen__header i {
+  margin-left: 10px;
+}

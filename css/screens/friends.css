@@ -1,0 +1,33 @@
+.friends__banner {
+  margin: 0px 10px;
+  height: 40px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  background-color: rgba(0, 0, 0, 0.03);
+}
+.friends__banner span {
+  margin-left: 10px;
+  margin-right: 20px;
+  font-size: 14pt;
+}
+.friends__banner i {
+  opacity: 0.2;
+}
+.channel__banner {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 10px;
+  margin-top: 20px;
+}
+
+.channel__banner span {
+  font-size: 16pt;
+  opacity: 0.4;
+}
+
+.channel__banner i {
+  opacity: 0.4;
+}

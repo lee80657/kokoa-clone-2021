@@ -1,0 +1,33 @@
+.chat {
+  margin-top: -10px;
+  display: flex;
+  align-items: center;
+  border: none;
+  text-decoration: inherit;
+  color: inherit;
+}
+.chat__info {
+  margin-left: 50px;
+  display: flex;
+  align-items: right;
+  flex-direction: column;
+  text-align: right;
+}
+.chat__info__time {
+  opacity: 0.4;
+  font-weight: 300;
+}
+.chat__info__alert {
+  margin-top: 10px;
+  margin-left: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+  font-weight: 400;
+  font-size: 12pt;
+}

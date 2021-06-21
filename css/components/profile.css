@@ -1,0 +1,47 @@
+.profile {
+  padding: 30px 0px;
+  margin: 0px 10px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.profile__photo {
+  width: 80px;
+  height: 80px;
+  border-radius: 35px;
+}
+.profile__info__name {
+  margin-left: 20px;
+  font-size: 20pt;
+  font-weight: 500;
+}
+.profile__info__text {
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: 15pt;
+  font-weight: 300;
+  opacity: 0.4;
+}
+.profile__channel {
+  padding: 30px 0px;
+  margin: 0px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  border-bottom: none;
+}
+
+.profile__photo__small {
+  width: 70px;
+  height: 70px;
+  border-radius: 30px;
+}
+
+.profile__info__name__small {
+  margin-left: 20px;
+  font-size: 20pt;
+  font-weight: 400;
+}
