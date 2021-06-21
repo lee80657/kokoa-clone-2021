@@ -1,5 +1,4 @@
 .screen__header {
-  margin: 0px 10px;
   margin-top: 20px;
   padding: 5px;
   display: flex;
@@ -11,4 +10,20 @@
 }
 .screen__header i {
   margin-left: 10px;
+}
+.screen__header__icon {
+  position: relative;
+}
+.alt__header {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.alt__header h1 {
+  font-weight: 600;
+  font-size: 20pt;
+}
+.alt__header a {
+  color: inherit;
 }

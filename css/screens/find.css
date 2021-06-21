@@ -1,0 +1,127 @@
+.find__notification {
+  margin-left: 55px;
+}
+.find__icons {
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-between;
+  border-bottom: var(--main-border);
+}
+.find__icons div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.find__icons div i {
+  font-size: 25pt;
+  margin-bottom: 20px;
+}
+.find__icons div span {
+  margin-bottom: 15px;
+  font-size: 15pt;
+}
+
+.find__icons__ID__icon {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 3px solid #2e363e;
+  font-weight: 500;
+}
+.recommanded-friends {
+  margin-top: 15px;
+  border-bottom: var(--main-border);
+  display: flex;
+  flex-direction: column;
+}
+.recommanded-friends h4 {
+  opacity: 0.4;
+  font-weight: 400;
+  font-size: 14pt;
+}
+.recommanded-friends span {
+  margin: 100px 0px;
+  text-align: center;
+  opacity: 0.4;
+  font-weight: 400;
+  font-size: 15pt;
+}
+.openchat {
+  display: flex;
+  flex-direction: column;
+}
+.openchat__banner {
+  margin: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 0.4;
+  font-weight: 400;
+  font-size: 12pt;
+}
+.openchat__banner div {
+  display: flex;
+  align-items: center;
+}
+.openchat__banner div i {
+  margin-left: 5px;
+}
+.openchat__column {
+  margin: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.openchat__column__info {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+.openchat__column__info__title {
+  font-size: 14pt;
+  font-weight: 400;
+}
+.openchat__column__info__hashtag {
+  margin-top: 5px;
+  font-size: 12pt;
+  font-weight: 300;
+  opacity: 0.4;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.openchat__column__members {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+}
+.openchat__column__members__img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.openchat__column__members__number {
+  margin-left: 5px;
+  opacity: 0.4;
+}
+.divider {
+  margin: 0px 5px;
+  width: 1px;
+  height: 15px;
+  background-color: var(--sub-color);
+}
+.openchat__column__members__status {
+  color: violet;
+}
+.openchat__column__img {
+  position: relative;
+}
+.openchat__column__img__img {
+  width: 120px;
+  height: 120px;
+  border-radius: 20%;
+}
