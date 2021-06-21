@@ -27,3 +27,6 @@
 .alt__header a {
   color: inherit;
 }
+.alt__header div i:last-child {
+  margin-left: 10px;
+}
